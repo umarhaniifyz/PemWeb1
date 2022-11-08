@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+}
+#body {
+    background-color: rgb(224, 220, 157);
+}
+
+#header {
+    background-color: burlywood;
+    color: blue;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    padding-top: 10px;
+    margin: 0;
+
+}
+
+#header > h1 {
+    font-size: 40px;
+}
+
+#blockquote {
+    border: 2px dotted black;
+    text-align: center;
+    display: block;
+    color: black;
+    background-color: gold;
+    margin: 0px 110px 0px 110px;
+    font-size: 18px;
+
+}
+
+#soekarno {
+    display: inline;
+}
+
+div>ul>li {
+    display: inline;
+
+}
+
+div>ul {
+    text-align: center;
+}
+
+.gambar {
+    width: 60%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.isi {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.jawa, i {
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.fp::first-letter {
+    color: blue;
+    font-size: 80px;
+}
+
+#profil > h3 {
+    font-weight: bolder;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+}
+
+#profil > ul > li {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+#berternak, h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: underline;
+
+}
+
+#berternak, h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-weight: bolder;
+    
+}
+
+div.koleksi img {
+    margin-left: 5%;
+    width: 200px;
+    display: inline;
+
+}
+
+.promo {
+    text-align: center;
+    background-color:burlywood ;
+    color: black;
+    height: 250px;
+    margin-top: 3px;
+    
+}
+
+div .promo2 {
+    padding-top: 10px;
+}
+
+.del {
+    color: red;
+}
+
+.strong {
+    color: red;
+}
+
+.promo li {
+    list-style: none;
+    display: inline;
+}
