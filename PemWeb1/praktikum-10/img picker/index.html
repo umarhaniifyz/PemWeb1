@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select onchange="change()" name="" id="pilih">
+        <option value="gorila">Gorila</option>
+        <option value="elang">Elang</option>
+        <option value="singa">Singa</option>
+    </select>
+    <img src="" alt="" id="gambar">
+
+    <script>
+        function change(){
+            var pilihan = document.getElementById("pilih").value;
+            let gambar = document.getElementById("gambar")
+            if (pilihan == "gorila"){
+                gambar.src = "img/gorila.jpg"
+            }
+            else if (pilihan == "elang"){
+                gambar.src = "img/elang.jpg"
+            }
+            else if (pilihan == "singa"){
+                gambar.src = "img/singa.jpg"
+            }
+        }
+    </script>
+</body>
+</html>
